@@ -1,0 +1,279 @@
+/* Navbar.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff; 
+  /* padding: 15px 20px;  */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 10vh;
+}
+
+.siva {
+  font-size: 24px; /* Logo font size */
+  font-weight: bold; /* Bold text */
+  color: white;
+   /* White text color for contrast */
+}
+
+.nav-links {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Flexbox for horizontal layout */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+  margin: 0 15px; /* Spacing between items */
+}
+
+.nav-links a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* White link color */
+  font-weight: 500; /* Medium font weight */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-links a:hover {
+  color: #f0f0f0; /* Slightly lighter color on hover */
+}
+
+.auth-buttons {
+  display: flex; /* Flexbox for button alignment */
+  align-items: center;/* Center buttons vertically */
+}
+
+.auth-button {
+  padding: 10px 15px;
+  background-color: #0056b3; /* Darker blue for buttons */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px; /* Spacing between buttons */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.auth-button:hover {
+  background-color: #004494; /* Even darker background on hover */
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f8;
+  margin: 0;
+  padding: 0;
+}
+
+.containers {
+  max-width: 1000px;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  text-align: center;
+  color: green;
+  margin-top: 10px;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}
+/* Login.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  text-align: center;
+  color: green;
+  margin-top: 10px;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}
+
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden; /* Hide overflow */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.scroll-content {
+  display: inline-block; /* Allows for horizontal scrolling */
+  animation: scroll 10s linear infinite; /* Adjust duration as needed */
+}
+
+.logo {
+  height: 50px; /* Adjust height as needed */
+  margin: 0 15px; /* Spacing between logos */
+  border: 2px solid #000; /* Add a solid black border */
+  border-radius: 50px; /* Optional: rounded corners */
+  padding: 5px; /* Optional: space between image and border */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Adjust based on the total width of the logos */
+  }
+}
+.container {
+  width: 1500px;
+   /* Replace with your image URL */
+  
+  
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+ 
+
+}
+
+.logo {
+  width: 100px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.section-image {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.section-content {
+  max-width: 1000px;
+}
+
+.section-content h2 {
+  color: #6a1b9a; /* Assuming a purple theme color */
+}
+
+.section-content p {
+color: #555;
+}
+.profile{
+  height: 100%;
+  width: 80%;
+}
